@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Steam ID Finder</title>
+</head>
+
+<body>
+    <nav id="header">
+        <div id="navbar-left">
+            <h1>Steam Id Finder</h1>
+        </div>
+        <div id="navbar-middle">
+            <ul>
+                <li><a href="#">PC Guides and Hardware</a></li>
+                <li><a href="#">Steam Calculator</a></li>
+                <li><a href="#">Advertise Steam Games</a></li>
+                <li><a href="#">Follow us</a></li>
+            </ul>
+        </div>
+        <div id="navbar-right">
+            <img src="src/images/pcgamesn.svg" alt="PC Games">
+        </div>
+    </nav>
+
+    <main>
+        <section id="main-section">
+            <section id="about">
+                <h2>Lookup and convert your Steam Hex, SteamID, SteamID3, SteamID64, Custom URL and Community ID</h2>
+                <div>
+                    <p>Discover the value of your game collection, gasp at all the unplayed games in your Pile of Shame,
+                        and easily lookup Steam profiles at SteamID Finder. Our fast and free tool supports a wide range
+                        of ID formats - <strong>including Steam Hex, Steam ID 64</strong>, and more - so just enter your
+                        SteamID into the search bar to get started.</p>
+                </div>
+            </section>
+
+            <section id="findsteamid">
+                <h2>Find Steam ID</h2>
+                <p>Enter a SteamID, SteamID3, SteamID64, custom URL or complete URL</p>
+                <form action="/rechercher" method="get">
+                    <input id="searchbar" type="text" name="q" />
+                    <input id="submit" type="submit" value="Search" />
+                </form>
+            </section>
+
+            <section id="other">
+                <h2>How to find your Steam ID</h2>
+                <p>Finding your SteamID is easy. All you need to do is log into Steam via your web browser or the Steam
+                    application.
+                    From there, click your username in the top-right corner of the window and select ‘Account details’
+                    from the dropdown menu.
+                    Your 17 digit SteamID will appear near the top of this screen, right below your Steam username.
+                    These numbers are known as your <strong>Steam 64-bit ID</strong>, and they act as a unique
+                    identifier for your Steam account.
+                    Copy them, and you’re ready to go.
+                </p>
+                <h2>How to find your Steam Hex</h2>
+                <p>
+                    Once you’ve followed the steps above to find your SteamID, you can use our tool to convert it into a
+                    <strong>Steam Hex</strong>. Simply copy the 17 digit SteamID into the search bar, and we’ll convert
+                    it into a Steam Hex ID in a matter of seconds.
+                </p>
+                <h2>Steam ID lookup formats</h2>
+                <p><strong>These are the Steam lookup formats we support:</strong></p>
+                <ul>
+                    <li>SteamID - STEAM_0:0:11101</li>
+                    <li>SteamID3 - [U:1:22202]</li>
+                    <li>SteamID3 without brackets - U:1:22202</li>
+                    <li>SteamID64 - 76561197960287930</li>
+                    <li>CustomURL - gabelogannewell</li>
+                    <li>Full Steam URL - https://steamcommunity.com/profiles/76561197960287930</li>
+                    <li>Full Steam URL with customURL - https://steamcommunity.com/id/gabelogannewell</li>
+                </ul>
+                <h2>PC Game Guides</h2>
+                <p>
+                    Once you’ve looked up your SteamID, you’ll undoubtedly be looking for something to play next.
+                    Luckily, PCGamesN can help, providing you with the latest PC gaming news as well as guides to the
+                    <a href="#">best free PC games</a> and the <a href="#">best free Steam games</a>. PCGN is also the
+                    destination for trusted buying
+                    advice, such as the <a href="#">best gaming laptop</a>, the <a href="#">best gaming VPN</a> and the
+                    <a href="#">best Steam Deck accessories</a>.
+                </p>
+            </section>
+        </section>
+
+        <footer>
+            <nav id="footer">
+                <ul>
+                    <li>© <a href="">Network N Ltd</a> 2023 |</li>
+                    <li><a href="">Powered by Steam</a> |</li>
+                    <li><a href="">Privacy policy</a> |</li>
+                    <li><a href="">Cookie policy</a> |</li>
+                    <li><a href="">About/Contact</a> |</li>
+                    <li><a href="">Steam Group</a> |</li>
+                    <li><a href="">Manage Cookie Settings</a> </li>
+                </ul>
+            </nav>
+        </footer>
+    </main>
+
+</body>
+
+</html>
